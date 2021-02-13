@@ -1,0 +1,37 @@
+.drive-right-container {
+  border-left: 1px solid #dadce0;
+  position: absolute;
+  top: -8px;
+  right: -45px;
+  width: 45px;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  user-select: none;
+}
+
+.drive-right-container .icon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.drive-right-container .icon:hover {
+  background-color: rgb(245, 245, 245);
+}
+.icon img {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.icon svg {
+  cursor: pointer;
+  color: #202124;
+  margin: 1rem 0;
+}

@@ -1,0 +1,49 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 0.9rem 1rem;
+  text-align: center;
+}
+
+tr,
+th {
+  font-size: 14px;
+  color: black;
+  font-weight: 500;
+}
+
+th:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+
+tr {
+  border-bottom: 1px solid rgb(216, 216, 216);
+  text-align: left;
+}
+
+.files-tr {
+  cursor: pointer;
+  padding: 2rem;
+}
+
+.file-name-td {
+  display: flex;
+  align-items: center;
+}
+
+.file-name-td svg {
+  font-size: 1.6rem;
+}
+
+.file-name-td span {
+  margin-left: 10px;
+}
+
+.files-tr:hover {
+  background-color: rgb(245, 245, 245);
+}

@@ -1,0 +1,28 @@
+.option {
+  width: 100%;
+  user-select: none;
+  padding: 0.7rem 2rem;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0 100px 100px 0;
+}
+
+.option:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.option svg {
+  font-size: 1.6rem;
+}
+
+.option p {
+  margin-left: 1rem;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.option:nth-child(2) {
+  background-color: #e8f0fe;
+  color: #1967d2;
+}

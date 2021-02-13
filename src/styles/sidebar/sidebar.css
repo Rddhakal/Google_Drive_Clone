@@ -1,0 +1,66 @@
+.sidebar-container {
+  width: 22.5%;
+  padding: 1rem 2rem 1rem 0;
+}
+
+.new-btn {
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+  user-select: none;
+  margin: 0.7rem 0 0.7rem 2rem;
+  padding: 0 24px 0 0;
+  display: flex;
+  cursor: pointer;
+  width: 120px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  color: #202124;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.new-btn svg {
+  margin-right: 1rem;
+}
+.storage {
+  border-top: 1px solid rgb(216, 216, 216);
+  padding: 0.8rem 2rem;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.storage svg {
+  font-size: 1.6rem;
+}
+
+.storage p {
+  margin-left: 1rem;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.storage-progress {
+  padding: 0.8rem 2rem;
+}
+
+.storage-progress .progress {
+  padding-bottom: 2px;
+  margin-bottom: 10px;
+  width: 74%;
+  height: 0.6vh;
+  border-radius: 5px;
+  background-color: rgb(216, 216, 216);
+}
+
+.storage-progress p {
+  font-size: 14px;
+  color: gray;
+}
+
+.storage-progress .storage-btn {
+  font-size: 12px;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
